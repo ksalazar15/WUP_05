@@ -1,13 +1,14 @@
 ---
 title: "Aides Drug"
 author: "Kevin Brandon Salazar"
-date: "Summer 2023"
+date: "July 24, 2023"
 output: html_document
 ---
 
 ```{r include=FALSE,echo=FALSE}
 require(tidyverse)
 require(tigerstats)
+require(dplyr)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 ```
 
@@ -27,9 +28,17 @@ Data for this study came from a clinical trial for the drug triUmpsal
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+The response method is Cat~Cat, because the question is about drug users we have to subset the data to include only elicit drug users.  
+
+Graphical display bar chart, Numerical display xtabs, Inferential display $x^2$ test
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
+
+```{r}
+DruggieData = filter(triUmp, DrugUser == "yes")
+```
 
 ## Descriptive Results
 
