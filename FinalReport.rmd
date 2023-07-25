@@ -70,7 +70,18 @@ Among all the people who got aid it appears that the people who had the placebo 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+In the Pearson's Chi-squared test P-Value is 000000.1242 shows that the vaccine is effective in preventing aids among drug users. If you get the vaccine you are 0.3534 less likely to get aids than someone who gets the placebo.
+
+In the Fisher's Exact Test P-Value is 0000000.23 which shows we can reject the Null Hypothesis. The odds ratio is that you are 0.35 times likely to get aids when you have the placebo than the vaccine. The answer is still the same.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The main question at hand is if a new preventative aids drug (triUmpsal) is effective with illegal drug users. Based on the research we have found the vaccine to be effective in preventing aids. Also those who received the placebo were 3 times more likely to get aids than people with the vaccine. The clinical test trial allowed us to reject the null hypothesis.
