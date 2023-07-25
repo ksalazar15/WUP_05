@@ -46,6 +46,14 @@ DruggieData = filter(triUmp, DrugUser == "yes")
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
+```{r}
+barchartGC(~infected+treatment,data=DruggieData)
+barchartGC(~infected+treatment,data=DruggieData, type="percent")
+
+```
+
+Among those who did not get aids half of them had the drug half of them had the placebo meanwhile among those who got aids most of them had the placebo meaning the vaccine made a difference.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
