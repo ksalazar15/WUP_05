@@ -84,4 +84,5 @@ In the Fisher's Exact Test P-Value is 0000000.23 which shows we can reject the N
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+
 The main question at hand is if a new preventative aids drug (triUmpsal) is effective with illegal drug users. Based on the research we have found the vaccine to be effective in preventing aids. Also those who received the placebo were 3 times more likely to get aids than people with the vaccine. The clinical test trial allowed us to reject the null hypothesis.
